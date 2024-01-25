@@ -2,233 +2,341 @@ const data = [
   {
     "id": "1",
     "name": "MundoTecnológico",
-    "description": "This is project 1",
+    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum voluptates.",
     "image": "https://picsum.photos/200/200",
-    "client": "Cliente 1",
-    "phone": "123456789",
-    "leader": "Encargado 1",
-    "tags": [
-      {
-        "name": "technology"
-      }, 
-      {
-        "name": "future technology"
-      }, 
-      {
-        "name": "new technology"
-      }
-    ],
+    "alias": "Proyecto opa 22",
+    "tags": [ "technology", "future technology", "new technology" ],
+    "propietario": "Opa S.A.S",
+    "date": "2024-20-24",
+    "duration": "3",
+    "finalDate": "2023-01-13",
     "tasks": [
       {
-        "task": "Esta es una tarea en la que se debe desarrollar un codigo de react2",
-        "status": "vigente",
-        "date": "2021-10-10"
+        "id": "1",
+        "status": "1",
+        "task": "Por favor revisar el codigo de react",
       },
       {
-        "task": "Esta es una tarea en la que se debe desarrollar un codigo de react3",
-        "status": "atrasada",
-        "date": "2021-10-10"
+        "id": "2",
+        "status": "2",
+        "task": "Ir a la reunion sobre el codigo",
       },
       {
-        "task": "Esta es una tarea en la que se debe desarrollar un codigo de react4",
-        "status": "vigente",
-        "date": "2021-10-10"
+        "id": "3",
+        "status": "3",
+        "task": "Informar sobre el bug",
       },
       {
-        "task": "Esta es una tarea en la que se debe desarrollar un codigo de react",
-        "status": "completa",
-        "date": "2021-10-10"
-      },
-      {
-        "task": "Esta es una tarea en la que se debe desarrollar un codigo de react8",
-        "status": "vigente",
-        "date": "2021-10-10"
+        "id": "4",
+        "status": "4",
+        "task": "Terminar la pasarela de cobro",
       },
     ],
     "actions": [
       {
         "id": "1",
-        "action": "Esta es una accion en la que se debe desarrollar un codigo de react2",
-        "date": "2021-10-10"
+        "action": "Accion realizada",
+        "date": "2024-01-26"
       },
       {
         "id": "2",
-        "action": "Esta es una accion en la que se debe desarrollar un codigo de react3",
-        "date": "2021-10-10"
+        "action": "Accion realizada",
+        "date": "2024-01-30"
       },
       {
         "id": "3",
-        "action": "Esta es una accion en la que se debe desarrollar un codigo de react9",
-        "date": "2021-10-10"
+        "action": "Accion realizada",
+        "date": "2024-01-30"
       },
       {
         "id": "4",
-        "action": "Esta es una accion en la que se debe desarrollar un codigo de react7",
-        "date": "2021-10-10"
+        "action": "Accion realizada",
+        "date": "2024-01-30"
       },
-
-    ]
+    ],
   },
   {
     "id": "2",
-    "name": "ConexiónSegura",
-    "description": "This is project 2",
-    "image": "",
-    "client": "Cliente 2",
-    "phone": "123456789",
-    "leader": "Encargado 2",
-    "tags": [
+    "name": "MundoTecnológico",
+    "description": "Este es un proyecto realizado al banco de la replublica para transferencias",
+    "image": "https://picsum.photos/200/200",
+    "alias": "Proyecto opa 25",
+    "tags": [ "Business", "Gold", "Dolar", "Money", "Economy"],
+    "propietario": "Banco de la republica",
+    "date": "2024-20-24",
+    "duration": "3",
+    "finalDate": "2023-01-13",
+    "tasks": [
       {
-        "name": "food"
-      }, 
-      {
-        "name": "fast food"
-      }, 
-      {
-        "name": "food challenge"
+        "id": "1",
+        "status": "1",
+        "task": "Por favor revisar el codigo de react",
       },
       {
-        "name": "food vlog"
+        "id": "2",
+        "status": "2",
+        "task": "Ir a la reunion sobre el codigo",
       },
       {
-        "name": "food tour"
+        "id": "3",
+        "status": "3",
+        "task": "Informar sobre el bug",
       },
       {
-        "name": "food tv"
+        "id": "4",
+        "status": "4",
+        "task": "Terminar la pasarela de cobro",
+      },
+    ],
+    "actions": [
+      {
+        "id": "1",
+        "action": "Accion realizada",
+        "date": "2024-01-26"
       },
       {
-        "name": "junk food"
+        "id": "2",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
       },
-    ]
+      {
+        "id": "3",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
+      },
+      {
+        "id": "4",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
+      },
+    ],
   },
   {
     "id": "3",
-    "name": "CreaTec",
-    "description": "This is project 3",
+    "name": "Banco de la republica",
+    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum voluptates.",
     "image": "https://picsum.photos/200/200",
-    "client": "Cliente 3",
-    "phone": "123456789",
-    "leader": "Encargado 3",
-    "tags": [
+    "alias": "Proyecto opa 22",
+    "tags": [ "technology", "future technology", "new technology" ],
+    "propietario": "Opa S.A.S",
+    "date": "2024-20-24",
+    "duration": "3",
+    "finalDate": "2023-01-13",
+    "tasks": [
       {
-        "name": "cell"
-      }, 
-      {
-        "name": "cells"
-      }, 
-      {
-        "name": "cell membrane"
+        "id": "1",
+        "status": "1",
+        "task": "Por favor revisar el codigo de react",
       },
       {
-        "name": "cell cycle"
+        "id": "2",
+        "status": "2",
+        "task": "Ir a la reunion sobre el codigo",
       },
       {
-        "name": "cell structure"
+        "id": "3",
+        "status": "3",
+        "task": "Informar sobre el bug",
       },
       {
-        "name": "cell biology"
+        "id": "4",
+        "status": "4",
+        "task": "Terminar la pasarela de cobro",
+      },
+    ],
+
+    "actions": [
+      {
+        "id": "1",
+        "action": "Accion realizada",
+        "date": "2024-01-26"
       },
       {
-        "name": "the cell"
+        "id": "2",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
       },
       {
-        "name": "cell wall"
+        "id": "3",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
       },
       {
-        "name": "cell walls"
-      }
-    ] 
+        "id": "4",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
+      },
+    ],
   },
   {
     "id": "4",
-    "name": "TecnoloMaster",
-    "description": "This is project 4",
-    "image": "",
-    "cleint": "Cliente 4",
-    "phone": "123456789",
-    "leader": "Encargado 4",
-    "tags": [
+    "name": "Filosofia",
+    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum voluptates.",
+    "image": "https://picsum.photos/200/200",
+    "alias": "Proyecto opa 22",
+    "tags": [ "Platon", "Socrates", "Aristoteles"],
+    "propietario": "Opa S.A.S",
+    "date": "2024-20-24",
+    "duration": "3",
+    "finalDate": "2023-01-13",
+    "tasks": [
       {
-        "name": "air"
-      }, 
-      {
-        "name": "air band"
-      }, 
-      {
-        "name": "air supply"
+        "id": "1",
+        "status": "1",
+        "task": "Por favor revisar el codigo de react",
       },
       {
-        "name": "air fry"
+        "id": "2",
+        "status": "2",
+        "task": "Ir a la reunion sobre el codigo",
       },
       {
-        "name": "air travel"
+        "id": "3",
+        "status": "3",
+        "task": "Informar sobre el bug",
       },
       {
-        "name": "air trailer"
+        "id": "4",
+        "status": "4",
+        "task": "Terminar la pasarela de cobro",
+      },
+    ],
+    "actions": [
+      {
+        "id": "1",
+        "action": "Accion realizada",
+        "date": "2024-01-26"
       },
       {
-        "name": "air jordans"
+        "id": "2",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
       },
       {
-        "name": "air fryer"
+        "id": "3",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
       },
-    ] 
+      {
+        "id": "4",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
+      },
+    ],
   },
   {
     "id": "5",
-    "name": "TecnoGestión",
-    "description": "This is project 5",
+    "name": "Medicina",
+    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum voluptates.",
     "image": "https://picsum.photos/200/200",
-    "client": "Cliente 5",
-    "phone": "123456789",
-    "leader": "Encargado 5",
-    "tags": [
+    "alias": "Proyecto opa 25",
+    "tags": ["Cirolgia", "Medicina", "Medicina interna", "Medicina general"],
+    "propietario": "Banco de la republica",
+    "date": "2024-20-24",
+    "duration": "3",
+    "finalDate": "2023-01-13",
+    "tasks": [
       {
-        "name": "games"
-      }, 
-      {
-        "name": "video games"
-      }, 
-      {
-        "name": "squid games"
+        "id": "1",
+        "status": "1",
+        "task": "Por favor revisar el codigo de react",
       },
       {
-        "name": "games for kidss"
-      }
-    ]
+        "id": "2",
+        "status": "2",
+        "task": "Ir a la reunion sobre el codigo",
+      },
+      {
+        "id": "3",
+        "status": "3",
+        "task": "Informar sobre el bug",
+      },
+      {
+        "id": "4",
+        "status": "4",
+        "task": "Terminar la pasarela de cobro",
+      },
+    ],
+    "actions": [
+      {
+        "id": "1",
+        "action": "Accion realizada",
+        "date": "2024-01-26"
+      },
+      {
+        "id": "2",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
+      },
+      {
+        "id": "3",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
+      },
+      {
+        "id": "4",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
+      },
+    ],
   },
   {
     "id": "6",
-    "name": "DigitalPlus",
-    "description": "This is project 6",
+    "name": "TechWorld",
+    "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum voluptates.",
     "image": "https://picsum.photos/200/200",
-    "client": "Cliente 6",
-    "phone": "123456789",
-    "leader": "Encargado 6",
-    "tags": [
+    "alias": "Proyecto opa 22",
+    "tags": [ "technology", "future technology", "new technology" ],
+    "propietario": "Opa S.A.S",
+    "date": "2024-20-24",
+    "duration": "3",
+    "finalDate": "2023-01-13",
+    "tasks": [
       {
-        "name": "tag1"
-      }, 
-      {
-        "name": "tag2"
-      }, 
-      {
-        "name": "tag3"
+        "id": "1",
+        "status": "1",
+        "task": "Por favor revisar el codigo de react",
       },
       {
-        "name": "tag3"
+        "id": "2",
+        "status": "2",
+        "task": "Ir a la reunion sobre el codigo",
       },
       {
-        "name": "tag3"
+        "id": "3",
+        "status": "3",
+        "task": "Informar sobre el bug",
       },
       {
-        "name": "tag3"
+        "id": "4",
+        "status": "4",
+        "task": "Terminar la pasarela de cobro",
+      },
+    ],
+
+    "actions": [
+      {
+        "id": "1",
+        "action": "Accion realizada",
+        "date": "2024-01-26"
       },
       {
-        "name": "tag3"
-      }
-    ]
-  }
+        "id": "2",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
+      },
+      {
+        "id": "3",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
+      },
+      {
+        "id": "4",
+        "action": "Accion realizada",
+        "date": "2024-01-30"
+      },
+    ],
+  },
 ]
 
 export default data

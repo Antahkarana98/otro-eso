@@ -27,7 +27,7 @@ const Modal = () => {
     files,
     setFiles,
   } = useProjects()
-  
+
   const [showModal, setShowModal] = useState(false)
 
   const handleChange = (e) => {
@@ -42,7 +42,7 @@ const Modal = () => {
         break;
       case 'alias':
         setAlias(value)
-        break;    
+        break;
       case 'tags':
         setTags(value)
       break;
@@ -60,7 +60,7 @@ const Modal = () => {
     }
 
   }
-  
+
   const handleSubmit = (e) => {
     e.preventDefault()
     setShowModal(false)
@@ -97,10 +97,10 @@ const Modal = () => {
 
   return (
     <>
-      <button 
+      <button
         onClick={() => setShowModal(true)}
         type='button'
-        className="bg-orange-500 text-white ms-5 py-1 px-3 rounded font-bold shadow-lg hover:bg-orange-600"
+        className="bg-orange-500 text-white ms-5 py-1 px-3 rounded-lg font-bold shadow-lg hover:bg-orange-600"
       >
         Nuevo Proyecto
       </button>
@@ -143,7 +143,7 @@ const Modal = () => {
                           value={name}
                         />
                       </div>
-                        
+
                       <div className="mb-4">
                         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="alias">
                           Alias:
@@ -164,7 +164,7 @@ const Modal = () => {
                         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="tags">
                           Tags:
                         </label>
-                        <TagForm 
+                        <TagForm
                           setTags={setTags}
                           tags={tags}
                         />
@@ -189,9 +189,9 @@ const Modal = () => {
                         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="propietario">
                             Propietario:
                           </label>
-                          <select 
-                            name="propietario" 
-                            id="propietario" 
+                          <select
+                            name="propietario"
+                            id="propietario"
                             onChange={handleChange}
                             value={propietario}
                             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"

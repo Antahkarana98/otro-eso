@@ -3,20 +3,20 @@ import NoImage from "./NoImage"
 
 
 const CardProyect = ({project}) => {
-  
+
   const { id, name, description, image, tags, alias, propietario, date, duration, finalDate } = project
-  
+
   return (
     <>
-      <article className="max-w-sm rounded overflow-hidden shadow-xl mt-10">
+      <article className="max-w-sm rounded-lg overflow-hidden shadow-md hover:shadow-xl card-tranform">
         <Link to={`/projects/${id}`}>
           <header>
             {
               image ? (
-                <img 
-                  className="w-full" 
-                  src={ image } 
-                  alt="project image" 
+                <img
+                  className="w-full"
+                  src={ image }
+                  alt="project image"
                 />
               ) : (
                 <NoImage />
@@ -60,10 +60,10 @@ const CardProyect = ({project}) => {
           </main>
 
           <footer>
-            <div className="px-6 pt-4 pb-5 grid grid-cols-2">
+            <div className="px-6 pt-4 pb-5 grid grid-cols-2 ">
               {tags.map((tag, index) => (
-                <div key={index} className="my-1">
-                  <span className="bg-orange-500 text-white text-sm font-medium me-2 px-2.5 py-0.5 rounded">
+                <div key={index} className="my-1 mx-1">
+                  <span className='bg-gray-800 text-white text-sm font-medium px-2.5 py-1 rounded-full flex justify-center w-full'>
                     {tag}
                   </span>
                 </div>
@@ -77,5 +77,3 @@ const CardProyect = ({project}) => {
 }
 
 export default CardProyect
-
-

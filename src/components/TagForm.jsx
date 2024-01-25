@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const TagForm = ({setTags, tags}) => {
-  
+
   const [tagInput, setTagInput] = useState('');
 
   const handleKeyDown = (e) => {
@@ -36,14 +36,14 @@ const TagForm = ({setTags, tags}) => {
         {/* Mostrar las etiquetas debajo del input */}
         {tags.map((tag, index) => (
           <div key={index} className='my-1'>
-            <div className='bg-orange-500 text-orange-200 text-sm font-medium px-2.5 py-0.5 rounded flex justify-between w-32'>
+            <div className='bg-gray-800 text-white text-sm font-medium px-2.5 py-1 rounded-full flex justify-between w-full'>
               <div>
                 {tag}
               </div>
-              <div>        
+              <div>
                 <button
                   onClick={() => {handleDeleteTag(index)}}
-                  className='text-orange-200'
+                  className='text-white hover:text-red-300'
                   type='button'
                 >x</button>
               </div>

@@ -8,7 +8,7 @@ const ProjectsProvider = ({children}) => {
   const [projects, setProjects] = useState([])
   const [project, setProject] = useState({})
 
-  
+
   const [name, setName] = useState("")
   const [description, setDescription] = useState("")
   const [alias, setAlias] = useState("")
@@ -19,11 +19,11 @@ const ProjectsProvider = ({children}) => {
   const [actions, setActions] = useState([])
   const [files, setFiles] = useState([])
   const [tasks, setTasks] = useState([])
-  
 
-  
 
-  /* const getProjects = async () => {
+
+
+  const getProjects = async () => {
     try {
       setProjects(data);
     } catch (error) {
@@ -33,13 +33,13 @@ const ProjectsProvider = ({children}) => {
 
   useEffect(() => {
     getProjects()
-  }, []) */
+  }, [])
 
   useEffect(() => {
     if (Object.keys(project).length === 0) return
 
     setProjects([...projects, project])
- 
+
   }, [project])
 
   return (

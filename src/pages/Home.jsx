@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import LogoOpa from '../assets/logo-opa.png'
+import LogoOpa from '../assets/Logo-opa.png'
 
 const Home = () => {
   return (

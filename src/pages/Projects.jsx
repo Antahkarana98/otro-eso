@@ -31,7 +31,7 @@ const Projects = () => {
 
         </div>
 
-        <div className="my-10 w-3/4 flex items-center justify-center mx-auto">
+        <div className="my-10 w-3/4 flex items-center justify-center mx-auto ">
 
           <div className="w-1/4"></div>
 
